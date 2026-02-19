@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Health Agent</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Business Health Agent</h1>
+
+    <form action="/run-ui" method="post">
+        <label>Proposal Request</label>
+        <textarea name="user_input" rows="5" required></textarea>
+
+        <label>Recipient Email</label>
+        <input type="email" name="recipient_email" required>
+
+        <button type="submit">Generate & Review</button>
+    </form>
+
+    <hr>
+
+    <h3>Weekly Updates</h3>
+    <form action="/newsletter/subscribe" method="post">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+
+</div>
+
+</body>
+</html>
