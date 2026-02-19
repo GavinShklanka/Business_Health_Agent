@@ -1,0 +1,11 @@
+
+
+langchain
+langgraph
+langchain-openai
+openai
+selenium
+webdriver-manager
+beautifulsoup4
+requests
+python-dotenv
